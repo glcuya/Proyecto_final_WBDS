@@ -29,17 +29,17 @@ La carpeta "WBDS_Proyecto_final_La_Camp"
 que contiene las subcarpetas "eggmapper", "jupyter_pyrodigal", "orf_finder", "pyrodigal"
 
 #Subir los archivos al github
-cd WBDS_Proyecto_final_La_Camp
-git config --global user.name Gianina
-git config --global user.email correo@hotmail.com
+$cd WBDS_Proyecto_final_La_Camp
+$git config --global user.name Gianina
+$git config --global user.email correo@hotmail.com
 
-git init
+$git init
 
-ls -al ~/.ssh
+$ls -al ~/.ssh
 
-ssh-keygen -t rsa -C correo@hotmail.com
+$ssh-keygen -t rsa -C correo@hotmail.com
 
-cat /c/Users/Lenovo/.ssh/id_rsa.pub
+$cat /c/Users/Lenovo/.ssh/id_rsa.pub
 
 #copiar la clave que está en el archivo id_rsa.pub
 #En la web de git hub, Ir a "settings", 
@@ -48,21 +48,21 @@ cat /c/Users/Lenovo/.ssh/id_rsa.pub
 #clic en el recuadro verde "Add SSH Key".
 
 #Volver al terminal y digitar:
-ssh -T git@github.com
+$ssh -T git@github.com
 
-ls
-git remote add origin https://github.com/glcuya/Proyecto_final_WBDS.git
+$ls
+$git remote add origin https://github.com/glcuya/Proyecto_final_WBDS.git
 
-git status
+$git status
 
-git add *
+$git add *
 
-git status
+$git status
 
-git commit -m "proyecto"
+$git commit -m "proyecto"
 
-git status
+$git status
 
-git push origin master
+$git push origin master
 
 
