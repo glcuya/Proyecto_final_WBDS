@@ -1,0 +1,51 @@
+
+#Alumna: Gianina Leonor Cuya Lozada
+
+
+En el terminal Git bash, 
+cd Gianina
+cd 
+ls
+cd WBDS_proyecto_final_La_Camp_GLCL/
+ls
+cd Resultados_primera_parte/
+ls
+cd prokka/
+ls
+grep -E "Subtilisin" Galaxy18-\[Prokka_on_data_14__faa\].fasta
+#la proteína subtilisina, del gen AprE
+
+Se copió la secuencia de la subtilisina de Bacillus subtilis y se buscó secuencias de esta proteína de Bacillus subtilis y otros Bacillus en en NCBI, con la herramienta blasp.
+
+>KNGNLBHA_03409 Subtilisin amylosacchariticus
+MRSKKLWISLLFALTLIFTMAFSNMSAQAAGKSSTEKKYIVGFKQTMSAMSSAKKKDVIS
+EKGGKVQKQFKYVNAAAATLDEKAVKELKKDPSVAYVEEDHIAHEYAQSVPYGISQIKAP
+ALHSQGYTGSNVKVAVIDSGIDSSHPDLNVRGGASFVPSETNPYQDGSSHGTHVAGTIAA
+LNNSIGVLGVAPSASLYAVKVLDSTGSGQYSWIINGIEWAISNNMDVINMSLGGPSGSTA
+LKTVVDKAVSSGIVVAAAAGNEGSSGSSSTVGYPAKYPSTIAVGAVNSSNQRASFSSAGS
+ELDVMAPGVSIQSTLPGGTYGAYNGTSMATPHVAGAAALILSKHPTWTNAQVRDRLESTA
+TYLGNSFYYGKGLINVQAAAQ
+
+
+Se realizó un alinemiento con MAFFT, y se realizó un cladograma con la página de MAFFT.
+
+En la página PDBsum http://www.ebi.ac.uk/thornton-srv/databases/pdbsum/
+se colocó la secuencia fasta de esta proteína KNGNLBHA anotada por prokka 
+http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/pdbsum/FindSequence.pl
+
+Se observó que tiene un alto porcentaje de identidad, de 96.6% con la proteína 3WHI de Bacillus subtilis.
+
+
+Se evaluó la proteína subtilisina cristalizada del Protein Data Bank https://www.rcsb.org/structure/3WHI 
+Es una hidrolasa, de Bacillus subtilis subsp. subtilis str. 168, que fue cristalizada por difracción de rayos X con una resolución de 2.40 Å. Es una proteína con dos cadenas (A y B) 
+
+
+
+
+
+
+
+
+
+7
+
