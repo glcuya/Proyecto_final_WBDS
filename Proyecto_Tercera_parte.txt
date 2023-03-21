@@ -1,5 +1,5 @@
 
-#Alumna: Gianina Leonor Cuya Lozada
+#Alumna: Gianina 
 
 
 En el terminal Git bash, 
