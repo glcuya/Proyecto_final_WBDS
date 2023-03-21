@@ -1,7 +1,6 @@
 WBDS_proyecto_final_La_Camp_GLCL
 
 
-Alumna: Gianina Leonor Cuya Lozada 
 
 El detalle de los comandos utilizados se encuentra en el archivo adjunto Proyecto_final_Gianina_Cuya.ipynb y fueron corridos en Jupyter 
 También se adjuntaron los archivos generados por los programas utilizados: orf_finder, pyrodigal, prokka, eggmapper(en la web)
@@ -33,7 +32,7 @@ que contiene las subcarpetas "eggmapper", "jupyter_pyrodigal", "orf_finder", "py
 cd WBDS_Proyecto_final_La_Camp
 git config --global user.name Gianina
 git config --global user.email correo@hotmail.com
-ls
+
 git init
 ls -al ~/.ssh
 ssh-keygen -t rsa -C correo@hotmail.com
