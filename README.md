@@ -2,7 +2,8 @@ WBDS_proyecto_final_La_Camp_GLCL
 
 
 
-El detalle de los comandos utilizados se encuentra en el archivo adjunto Proyecto_final_Gianina_Cuya.ipynb y fueron corridos en Jupyter 
+El detalle de los comandos utilizados se encuentra en el archivo adjunto Proyecto_final_Gianina_Cuya.ipynb, Proyecto_SegundaParte_subtilisina.ipynb
+y Proyecto_Tercera_parte.txt, y fueron corridos en Jupyter 
 También se adjuntaron los archivos generados por los programas utilizados: orf_finder, pyrodigal, prokka, eggmapper(en la web)
 
 
