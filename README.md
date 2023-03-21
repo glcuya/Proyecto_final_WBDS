@@ -34,8 +34,11 @@ git config --global user.name Gianina
 git config --global user.email correo@hotmail.com
 
 git init
+
 ls -al ~/.ssh
+
 ssh-keygen -t rsa -C correo@hotmail.com
+
 cat /c/Users/Lenovo/.ssh/id_rsa.pub
 
 #copiar la clave que está en el archivo id_rsa.pub
@@ -49,11 +52,17 @@ ssh -T git@github.com
 
 ls
 git remote add origin https://github.com/glcuya/Proyecto_final_WBDS.git
+
 git status
+
 git add *
+
 git status
+
 git commit -m "proyecto"
+
 git status
+
 git push origin master
 
 
