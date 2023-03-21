@@ -32,11 +32,11 @@ que contiene las subcarpetas "eggmapper", "jupyter_pyrodigal", "orf_finder", "py
 #Subir los archivos al github
 cd WBDS_Proyecto_final_La_Camp
 git config --global user.name Gianina
-git config --global user.email gianinacuya@hotmail.com
+git config --global user.email correo@hotmail.com
 ls
 git init
 ls -al ~/.ssh
-ssh-keygen -t rsa -C gianinacuya@hotmail.com
+ssh-keygen -t rsa -C correo@hotmail.com
 cat /c/Users/Lenovo/.ssh/id_rsa.pub
 
 #copiar la clave que está en el archivo id_rsa.pub
@@ -48,7 +48,13 @@ cat /c/Users/Lenovo/.ssh/id_rsa.pub
 #Volver al terminal y digitar:
 ssh -T git@github.com
 
-git add .
-git commit -a -m "jupyter_pyrodigal"
+ls
+git remote add origin https://github.com/glcuya/Proyecto_final_WBDS.git
 git status
-git push --set-upstream origin main
+git add *
+git status
+git commit -m "proyecto"
+git status
+git push origin master
+
+
