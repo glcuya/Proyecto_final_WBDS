@@ -27,7 +27,7 @@ Objetivos - Tercera parte
 
 En el terminal del Git bash
 La carpeta "WBDS_Proyecto_final_La_Camp"
-que contiene las subcarpetas "eggmapper", "jupyter_pyrodigal", "orf_finder", "pyrodigal"
+que contiene las subcarpetas "Resultados_primera_parte", "Resultados_segunda_parte", "Resultados_tercera_parte" y los archivos Proyecto_final_Gianina_Cuya.ipynb, Proyecto_SegundaParte_subtilisina.ipnyb, Proyecto_Tercera_parte.txt y README.md
 
 #Subir los archivos al github
 
